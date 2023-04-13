@@ -15,7 +15,8 @@ int main()
         cin >> myArray[i];
     }
     for (int i = 0; i < size; i++) {
-        cout << myArray [i]<< "   ";
+        //cout << myArray [i]<< "   ";
+        cout << *(myArray + + i) << "  ";
     }
     system("pause>0");
 }
