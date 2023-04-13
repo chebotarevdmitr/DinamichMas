@@ -10,6 +10,11 @@ int main()
    // int myArray[size];
     int* myArray = new int[size];
 
+    for (int i = 0; i < size; i++) {
+        cout << "Array[" << i << " ] ";
+        cin >> myArray[i];
+    }
+
     system("pause>0");
 }
 
