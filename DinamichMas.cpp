@@ -16,8 +16,11 @@ int main()
     }
     for (int i = 0; i < size; i++) {
         //cout << myArray [i]<< "   ";
-        cout << *(myArray + + i) << "  ";
+        cout << *(myArray  + i) << "  ";
     }
+    delete[] myArray;
+    myArray = NULL;
+
     system("pause>0");
 }
 
